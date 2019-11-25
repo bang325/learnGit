@@ -1,5 +1,5 @@
 Git 2019/11/25
-Luis handsome
+Luis handsome beautiful
 
 初始化一个Git仓库，使用git init命令。
 添加文件到Git仓库，分两步：
