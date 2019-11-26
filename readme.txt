@@ -49,6 +49,8 @@ $ git checkout -- test.txt
 关联后，使用命令git push -u origin master第一次推送master分支的所有内容；
 此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改；
 
-
-
+从远程库克隆
+ git clone git@github.com:bang325/gitSkills.git
+要克隆一个仓库，首先必须知道仓库的地址，然后使用git clone命令克隆。
+Git支持多种协议，包括https，但通过ssh支持的原生git协议速度最快。
 
