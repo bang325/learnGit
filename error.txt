@@ -1,0 +1,12 @@
+github中git push origin master出错：error: failed to push some refs to
+参考：https://blog.csdn.net/u013120247/article/details/53263169
+解决过程：
+1、先删除
+$ git remote rm origin
+2、再次执行添加就可以了。
+  git remote add origin git@github.com:bang325/gitSkills.git
+3、把github上最新的文件下载下来
+git pull --rebase origin master
+4.接着再去：
+git push origin master
+5、此时再去github网站上也就可以看到对应文件了
