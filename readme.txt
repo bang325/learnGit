@@ -84,4 +84,5 @@ Git用<<<<<<<，=======，>>>>>>>标记出不同分支的内容
 合并后，我们用git log看看分支历史：
 $ git log --graph --pretty=oneline --abbrev-commit
 
+Bug管理
 
