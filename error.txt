@@ -12,7 +12,7 @@ git push origin master
 5、此时再去github网站上也就可以看到对应文件了
 
 
-Git出现冲突error: Your local changes to the following files would be overwritten by merge: xxx/...
+Git出现冲突 error: Your local changes to the following files would be overwritten by merge: xxx/...
 解决文档 https://www.jianshu.com/p/920ad324fe64
 
 
